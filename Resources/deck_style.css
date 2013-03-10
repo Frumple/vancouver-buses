@@ -1,0 +1,84 @@
+@font-face { 
+	font-family: "Verdana";
+	src: url("verdana.ttf");
+}
+
+@font-face {
+	font-family: "Tahoma";
+	src: url("tahoma.ttf");
+}
+
+@font-face {
+	font-family: "Franklin Gothic";
+	src: url("framd.ttf");
+}
+
+@font-face { 
+	font-family: "Print Clearly";
+	src: url("PrintClearly_TT.ttf");
+}
+
+body{
+    font-family: 'Print Clearly', sans-serif;
+    font-size: medium;
+    color: #333;
+}
+
+h2, h3 { 
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-family: 'Franklin Gothic';
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.card{
+	width: 5.5cm;
+	height: 7.75cm;
+	border-style: solid;
+	border-width: 0.25em;
+	padding: 0.25em;
+	float:left;
+}
+
+.newpage{
+	display:block; 
+	page-break-before:always;
+}
+
+.type{
+	font-family: 'Franklin Gothic';
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+.title{
+	font-family: 'Gunplay';
+}
+
+.effect{
+	font-family: 'Print Clearly';
+	padding: 10px;
+}
+
+.flavor{
+    text-align: center;
+    padding: 3px;
+    font-size: large;
+	font-style: italic;
+    line-height: 1;
+    padding: 0px 15px;
+}
+
+p {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.Page
+{
+    padding: 2px;
+}

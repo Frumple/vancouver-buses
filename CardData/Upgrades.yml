@@ -1,0 +1,169 @@
+# Pickup Upgrades
+All-Doors Boarding:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Once per turn, you may pickup any number of passengers on your current space without spending an action."
+Large Catchment Area:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Once per turn, you may pickup one passenger from an adjacent space for 1 action."
+
+# Delivery Upgrades
+Layover Stop:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Once per turn, you may deliver any number of passengers on your current space without spending an action."
+This Is Close Enough:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Once per turn, you may deliver one passenger to an adjacent space for 1 action."
+Bike Rack:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Upon obtaining this card, name a region and place a passenger token for that region on top of this card. You may deliver any passengers bound for this region to any spaces within this region."
+
+# General Movement Upgrades
+Move To The Back:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Once per turn, you may move back into the space that you most recently travelled from without spending an action."
+Detour:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Once per turn, you may move another player any number of spaces for 2 actions per space. Normal movement rules apply."
+Straightaway:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Whenever you have spent 3 consecutive actions to move through spaces along a straight line, you may move one additional space without spending an action."
+
+# Location-specific Movement Upgrades
+Hastings HOV Lane Access:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "You may move up to 2 spaces along Hastings Street for 1 action."
+    Special: "Hastings Street includes all spaces from Stanley Park east to Kootenay Loop."
+Granville HOV Lane Access:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "You may move up to 2 spaces along Granville Street for 1 action."
+    Special: "Granville Street includes all spaces from Granville & Davie south to Marine & Granville."
+Scenic Route:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "If you are currently at a park, you may spend all your remaining actions to move to another park."
+    Special: "Parks are marked by the 'P' symbol on the board."
+Retire at the Loop:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "If you are currently at a bus loop, you may spend all your remaining actions to move to another bus loop."
+    Special: "Bus loops are marked by the 'L' symbol on the board."
+
+# Action Upgrades
+The Buzzer:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "When you have 5 or less actions at the beginning of your Action Phase, gain an additional action."
+
+# Card-drawing Upgrades
+Wheelchair Ramp:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Whenever you roll a 1 on at least one of your dice, you may draw a passenger card from a deck of your choice."
+Priority Seating:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards of the deck, put 1 card into your hand, and put the rest face-up into the deck's discard pile."
+Stragglers:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards in the deck's discard pile, put 1 card into your hand, and put the rest back to the discard pile in the same order."
+
+# Passenger Exchange Upgrades
+Right On Time:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "You may initiate a passenger exchange for only 1 action."
+Exact Change Please:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Whenever you would receive a card during a passenger exchange, you may instead name a region. The other player in the passenger exchange must give you a card of that region, if he/she has such a card in their hand."
+
+# Hand Limit Upgrades
+Articulated Bus:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Your passenger card hand limit increases to 6 cards."
+
+# Regional Scoring Upgrades
+South Main District:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Mount Pleasant."
+General Hospital:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Fairview."
+Old Marpole:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Marpole."
+The Banks Of The Fraser:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Victoria-Fraserview."
+The East Side:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Renfrew-Collingwood."
+On The Rise:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Hastings-Sunrise."
+Where The Lights Are Bright:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Downtown Vancouver."
+Alma Mater:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Point Grey."
+
+# Other Scoring Upgrades
+SkyTrain Feeder Bus:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to a SkyTrain station."
+    Special: "SkyTrain stations are marked by the 'S' symbol on the board."
+Canada Line Feeder Bus:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Score 1 additional victory point for every passenger you have delivered to a Canada Line station."
+    Special: "Canada Line stations are marked by the 'C' symbol on the board."
+
+# One-shot Upgrades
+Stroller On Board:
+    Type: Upgrade
+    Quantity: 2
+    Effect: "Discard this card immediately after obtaining it. You may then select a passenger deck and draw 2 cards from it, placing the cards into your hand."
+Not In Service:
+    Type: Upgrade
+    Quantity: 1
+    Effect: "Discard this card immediately after obtaining it. Discard all the cards in your hand, then draw that many passenger cards into your hand from any decks you choose."
+
+# Pending Upgrades
+#Onboard Cameras:
+#    Type: Upgrade
+#    Quantity: 1
+#    Effect: ""
+#Automated Next Stop Announcements:
+#    Type: Upgrade
+#    Quantity: 1
+#    Effect: ""
+#Transit Priority Signals:
+#    Type: Upgrade
+#    Quantity: 1
+#    Effect: ""
+#Hybrid Bus:
+#    Type: Upgrade
+#    Quantity: 1
+#    Effect: ""
