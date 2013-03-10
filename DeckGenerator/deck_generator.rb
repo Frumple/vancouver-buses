@@ -1,78 +1,50 @@
 #!/usr/bin/env ruby
 require 'optparse'
+require 'pp'
+require 'slim'
 require 'yaml'
 
-CARDS_PER_PAGE = 8
+class DeckGenerator
+  def initialize(options)
+    @options = options
+    @cards = YAML.load_file(@options[:data])
+    @template = Slim::Template.new(@options[:template], :pretty => true)
+  end
 
-options = {} 
+  def output
+    @template.render(self)
+  end
+end
 
-optparse = OptionParser.new {|opts|
-    opts.banner = "Usage: deck_generator.rb --file FILENAME"
+def parse_command_line_options
+  options = {}
 
-    options[:filename] = ""
-    opts.on( '-f', '--file FILENAME', 'File' ) {|file| options[:filename] = file } 
+  optparse = OptionParser.new {|opts|
+    opts.banner = "Usage: deck_generator.rb --template TEMPLATE --data DATA"
 
-    options[:name] = ""
-    opts.on( '-d', '--deck NAME', 'The name of the deck.') { |name| options[:name] = name } 
+    opts.on("-t", "--template TEMPLATE", "Slim template file") do |template|
+      options[:template] = template
+    end
 
-    options[:stylesheet] = "style.css" 
-    opts.on( '-s', '--stylesheet FILENAME', 'The name of the stylesheet.') { |filename| options[:stylesheet] = filename } 
+    opts.on("-d", "--data DATA", "YAML data file") do |data|
+      options[:data] = data
+    end
 
     opts.on("-h", "--help", "Show this message"){
-        puts opts
-        exit
+      puts opts
+      exit
     }
-}
-optparse.parse!
+  }
+  optparse.parse!
 
-if (options[:filename] == "") then
+  if options[:template].empty? or options[:data].empty?
     puts optparse
     exit
+  end
+
+  options
 end
 
-cards = YAML.load_file( options[:filename] )
-
-pagecounter = 0
-
-puts "<!DOCTYPE html>"
-puts "<html>"
-puts "\t<meta charset='utf-8'>"
-puts "\t<link rel=stylesheet href='deck_style.css' type='text/css' />" 
-puts "\t<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />"
-puts "<body>"
-puts "<div width='100%'>" 
-puts "<div>"
-
-cards.each do |key, value|
-  # Shared values
-  quantity = value["Quantity"] ||= 1
-  title = value["Title"] ||= key
-	type = value["Type"] ||= ""
-
-	effect = value["Effect"] ||= ""
-  special = value["Special"] ||= ""
-
-	remaining_values = value.reject{ |key, value| ["Quantity", "Title", "Image", "Special", "Flavor", "Type"].include?(key) }
-    sorted_remaining_values = remaining_values.sort{ |a, b| a[0].split(" ")[-1] <=> b[0].split(" ")[-1] } 
-
-    quantity.times do 
-		
-		puts "\t<div class='card'>"
-		puts "\t\t<h3>" + title + "</h3>"
-		puts "\t<div class='type'>" + type + "</div>"
-
-		puts "\t<div class='effect'>" + effect + "</div>" unless effect == ""
-    puts "\t<div class='special'>" + special + "</div>" unless special == ""
-
-		puts "\t</div>"
-		
-		pagecounter += 1
-		# Finished page, insert page break
-		puts "<div style='clear:both;' /> " if pagecounter % CARDS_PER_PAGE == 0
-		puts "</div><div class='newpage'> " if pagecounter % CARDS_PER_PAGE == 0 
-    end
-end
-
-puts "</div>" 
-puts "</body>"
-puts "</html>"
+options = parse_command_line_options
+deck_generator = DeckGenerator.new(options)
+puts deck_generator.output

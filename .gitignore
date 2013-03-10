@@ -1,3 +1,4 @@
 [Oo]utput/
 .idea
 *.iml
+*.lock
