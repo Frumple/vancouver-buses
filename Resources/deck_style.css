@@ -55,6 +55,14 @@ h1, h2, h3 {
 	border-bottom-style: solid;
 }
 
+.routes {
+    font-family: 'Franklin Gothic';
+    font-size: 300%;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1cm;
+}
+
 .title{
 	font-family: 'Gunplay';
 }

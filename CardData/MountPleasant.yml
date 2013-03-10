@@ -1,54 +1,77 @@
-2nd & Main:
-    Type: Mount Pleasant
-    Quantity: 1
-Great Northern Way:
-    Type: Mount Pleasant
-    Quantity: 1
-VCC/Clark Station:
-    Type: Mount Pleasant
-    Quantity: 1
-Broadway & Main:
-    Type: Mount Pleasant
-    Quantity: 1
-Broadway & Fraser:
-    Type: Mount Pleasant
-    Quantity: 1
-Broadway & Clark:
-    Type: Mount Pleasant
-    Quantity: 1
-Commercial-Broadway Station:
-    Type: Mount Pleasant
+Name: Mount Pleasant
+Cards:
+  2nd & Main:
+    Routes:
+      - 3
+      - 8
+      - 19
+      - 84
+  Great Northern Way:
+    Routes:
+      - 84
+  VCC/Clark Station:
+    Routes:
+      - 22
+      - 84
+  Broadway & Main:
+    Routes:
+      - 3
+      - 8
+      - 9
+      - 19
+  Broadway & Fraser:
+    Routes:
+      - 8
+      - 9
+  Broadway & Clark:
+    Routes:
+      - 9
+      - 22
+  Commercial-Broadway Station:
     Quantity: 3
-Broadway & Nanaimo:
-    Type: Mount Pleasant
-    Quantity: 1
-16th & Main:
-    Type: Mount Pleasant
-    Quantity: 1
-Kingsway & Fraser:
-    Type: Mount Pleasant
-    Quantity: 1
-16th & Knight:
-    Type: Mount Pleasant
-    Quantity: 1
-16th & Commercial:
-    Type: Mount Pleasant
-    Quantity: 1
-Nanaimo Station:
-    Type: Mount Pleasant
-    Quantity: 1
-King Edward & Main:
-    Type: Mount Pleasant
-    Quantity: 1
-King Edward & Fraser:
-    Type: Mount Pleasant
-    Quantity: 1
-Kingsway & Knight:
-    Type: Mount Pleasant
-    Quantity: 1
-Kingsway & Victoria:
-    Type: Mount Pleasant
-    Quantity: 1
-Kingsway & Nanaimo:
-    Type: Mount Pleasant
-    Quantity: 1
+    Routes:
+      - 9
+      - 20
+  Broadway & Nanaimo:
+    Routes:
+      - 7
+      - 9
+  16th & Main:
+    Routes:
+      - 3
+  Kingsway & Fraser:
+    Routes:
+      - 8
+      - 19
+  16th & Knight:
+    Routes:
+      - 22
+  16th & Commercial:
+    Routes:
+      - 20
+  Nanaimo Station:
+    Routes:
+      - 7
+      - 25
+  King Edward & Main:
+    Routes:
+      - 3
+      - 25
+  King Edward & Fraser:
+    Routes:
+      - 8
+      - 25
+  Kingsway & Knight:
+    Routes:
+      - 19
+      - 22
+      - 25
+  Kingsway & Victoria:
+    Routes:
+      - 19
+      - 20
+      - 25
+  Kingsway & Nanaimo:
+    Routes:
+      - 19
+      - 25

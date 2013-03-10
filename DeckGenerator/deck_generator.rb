@@ -7,7 +7,7 @@ require 'yaml'
 class DeckGenerator
   def initialize(options)
     @options = options
-    @cards = YAML.load_file(@options[:data])
+    @data = YAML.load_file(@options[:data])
     @template = Slim::Template.new(@options[:template], :pretty => true)
   end
 
