@@ -1,51 +1,74 @@
-Renfrew Station:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Rupert Station:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Boundary Loop:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Brentwood Town Centre:
-    Type: Renfrew-Collingwood
+Name: Renfrew-Collingwood
+Cards:
+  Renfrew Station:
+    Routes:
+      - 9
+      - 16
+  Rupert Station:
+    Routes:
+      - 9
+      - 26-29
+  Boundary Loop:
+    Routes:
+      - 9
+      - 26-29
+  Brentwood Town Centre:
     Quantity: 3
-22nd & Renfrew:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-22nd & Rupert:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-22nd & Boundary:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-29th Avenue Station:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Kingsway & Slocan:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Joyce-Collingwood Station:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-41st & Earles:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Kingsway & 41st:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Kingsway & Boundary:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-49th & Kerr:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-49th & Tyne:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-49th & Boundary:
-    Type: Renfrew-Collingwood
-    Quantity: 1
-Metrotown Station:
-    Type: Renfrew-Collingwood
+    Routes:
+      - 25
+  22nd & Renfrew:
+    Routes:
+      - 16
+      - 25
+  22nd & Rupert:
+    Routes:
+      - 25
+      - 26-29
+  22nd & Boundary:
+    Routes:
+      - 25
+      - 26-29
+  29th Avenue Station:
+    Routes:
+      - 16
+      - 26-29
+      - 33
+  Kingsway & Slocan:
+    Routes:
+      - 19
+      - 26-29
+      - 33
+  Joyce-Collingwood Station:
+    Routes:
+      - 26-29
+      - 41
+  41st & Earles:
+    Routes:
+      - 26-29
+      - 41
+  Kingsway & 41st:
+    Routes:
+      - 19
+      - 26-29
+      - 41
+  Kingsway & Boundary:
+    Routes:
+      - 19
+      - 26-29
+  49th & Kerr:
+    Routes:
+      - 26-29
+      - 49
+  49th & Tyne:
+    Routes:
+      - 26-29
+      - 49
+  49th & Boundary:
+    Routes:
+      - 26-29
+      - 49
+  Metrotown Station:
     Quantity: 3
+    Routes:
+      - 19
+      - 49

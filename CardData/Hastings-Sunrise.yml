@@ -1,48 +1,62 @@
-Powell & Clark:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Powell & Commercial:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Powell & Nanaimo:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Powell & Renfrew:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Hastings & Clark:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Hastings & Commercial:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Hastings & Nanaimo:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Hastings & Renfrew:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Hastings Park:
-    Type: Hastings-Sunrise
-    Quantity: 1
-Kootenay Loop:
-    Type: Hastings-Sunrise
+Name: Hastings-Sunrise
+Cards:
+  Powell & Clark:
+    Routes:
+      - 4
+      - 7
+  Powell & Commercial:
+    Routes:
+      - 4
+      - 7
+  Powell & Nanaimo:
+    Routes:
+      - 4
+      - 7
+  Powell & Renfrew:
+    Routes:
+      - 4
+  Hastings & Clark:
+    Routes:
+      - 14
+      - 16
+      - 20
+  Hastings & Commercial:
+    Routes:
+      - 14
+      - 16
+      - 20
+  Hastings & Nanaimo:
+    Routes:
+      - 7
+      - 14
+      - 16
+  Hastings Park:
+    Routes:
+      - 14
+      - 16
+  Hastings & Cassiar:
+    Routes:
+      - 14
+  Kootenay Loop:
     Quantity: 3
-1st & Clark:
-    Type: Hastings-Sunrise
-    Quantity: 1
-1st & Commercial:
-    Type: Hastings-Sunrise
-    Quantity: 1
-1st & Nanaimo:
-    Type: Hastings-Sunrise
-    Quantity: 1
-1st & Renfrew:
-    Type: Hastings-Sunrise
-    Quantity: 1
-1st & Rupert:
-    Type: Hastings-Sunrise
-    Quantity: 1
-1st & Boundary:
-    Type: Hastings-Sunrise
-    Quantity: 1
+    Routes:
+      - 14
+      - 26-29
+  1st & Clark:
+    Routes:
+      - 22
+  1st & Commercial:
+    Routes:
+      - 20
+  1st & Nanaimo:
+    Routes:
+      - 7
+  1st & Renfrew:
+    Routes:
+      - 16
+  1st & Rupert:
+    Routes:
+      - 26-29
+  1st & Boundary:
+    Routes:
+      - 26-29

@@ -1,27 +1,79 @@
-Stanley Park:
-    Type: Downtown Vancouver
-    Quantity: 1
-Waterfront Station:
-    Type: Downtown Vancouver
+Name: Downtown Vancouver
+Cards:
+  Stanley Park:
+    Routes:
+      - 19
+  Burrard Station:
+    Routes:
+      - 19
+      - 22
+      - 44/84
+  Waterfront Station:
     Quantity: 5
-Hastings & Main:
-    Type: Downtown Vancouver
-    Quantity: 1
-West End:
-    Type: Downtown Vancouver
-    Quantity: 1
-Vancouver City Centre Station:
-    Type: Downtown Vancouver
+    Routes:
+      - 3
+      - 4
+      - 7
+      - 8
+      - 10
+      - 14
+      - 15/50
+      - 16
+      - 17
+      - 19
+      - 20
+      - 22
+      - 44/84
+  Gastown:
+    Routes:
+      - 3
+      - 4
+      - 7
+      - 8
+  West End:
+    Routes:
+      - 22
+      - 44/84
+  Vancouver City Centre Station:
     Quantity: 5
-Vanier Park:
-    Type: Downtown Vancouver
-    Quantity: 1
-Granville & Davie:
-    Type: Downtown Vancouver
-    Quantity: 1
-Yaletown-Roundhouse Station:
-    Type: Downtown Vancouver
-    Quantity: 1
-Main Street Station:
-    Type: Downtown Vancouver
-    Quantity: 1
+    Routes:
+      - 4
+      - 7
+      - 10
+      - 14
+      - 15/50
+      - 16
+      - 17
+      - 20
+  Stadium-Chinatown Station:
+    Routes:
+      - 17
+  Hastings & Main:
+    Routes:
+      - 3
+      - 8
+      - 14
+      - 16
+      - 19
+      - 20
+  Vanier Park:
+    Routes:
+      - 22
+      - 44/84
+  Granville & Davie:
+    Routes:
+      - 4
+      - 7
+      - 10
+      - 14
+      - 15/50
+      - 16
+  Yaletown-Roundhouse Station:
+    Routes:
+      - 17
+  Main Street Station:
+    Routes:
+      - 3
+      - 8
+      - 19
+      - 22

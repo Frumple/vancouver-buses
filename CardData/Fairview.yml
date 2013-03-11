@@ -1,48 +1,79 @@
-4th & Arbutus:
-    Type: Fairview
-    Quantity: 1
-Granville Island:
-    Type: Fairview
-    Quantity: 1
-False Creek:
-    Type: Fairview
-    Quantity: 1
-Olympic Village Station:
-    Type: Fairview
-    Quantity: 1
-Broadway & Arbutus:
-    Type: Fairview
-    Quantity: 1
-Broadway & Granville:
-    Type: Fairview
-    Quantity: 1
-Broadway & Oak:
-    Type: Fairview
-    Quantity: 1
-Broadway-City Hall Station:
-    Type: Fairview
+Name: Fairview
+Cards:
+  4th & Arbutus:
+    Routes:
+      - 4
+      - 7
+      - 44/84
+  Granville Island:
+    Routes:
+      - 4
+      - 7
+      - 10
+      - 14
+      - 15/50
+      - 16
+      - 44/84
+  False Creek:
+    Routes:
+      - 15/50
+      - 44/84
+  Olympic Village Station:
+    Routes:
+      - 15/50
+      - 17
+      - 44/84
+  Broadway & Arbutus:
+    Routes:
+      - 9
+      - 14
+      - 16
+  Broadway & Granville:
+    Routes:
+      - 9
+      - 10
+      - 14
+      - 16
+  Broadway & Oak:
+    Routes:
+      - 9
+      - 17
+  Broadway-City Hall Station:
     Quantity: 3
-16th & Arbutus:
-    Type: Fairview
-    Quantity: 1
-16th & Granville:
-    Type: Fairview
-    Quantity: 1
-16th & Oak:
-    Type: Fairview
-    Quantity: 1
-16th & Cambie:
-    Type: Fairview
-    Quantity: 1
-King Edward & Arbutus:
-    Type: Fairview
-    Quantity: 1
-King Edward & Granville:
-    Type: Fairview
-    Quantity: 1
-King Edward & Oak:
-    Type: Fairview
-    Quantity: 1
-King Edward Station:
-    Type: Fairview
-    Quantity: 1
+    Routes:
+      - 9
+      - 15/50
+      - 17
+  16th & Arbutus:
+    Routes:
+      - 16
+      - 33
+  16th & Granville:
+    Routes:
+      - 10
+      - 33
+  16th & Oak:
+    Routes:
+      - 17
+      - 33
+  16th & Cambie:
+    Routes:
+      - 15/50
+      - 33
+  King Edward & Arbutus:
+    Routes:
+      - 16
+      - 25
+  King Edward & Granville:
+    Routes:
+      - 10
+      - 25
+  King Edward & Oak:
+    Routes:
+      - 17
+      - 25
+  King Edward Station:
+    Routes:
+      - 15/50
+      - 25
+      - 33

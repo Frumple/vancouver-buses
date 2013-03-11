@@ -1,54 +1,86 @@
-4th & Blanca:
-    Type: Point Grey
-    Quantity: 1
-4th & Alma:
-    Type: Point Grey
-    Quantity: 1
-4th & Macdonald:
-    Type: Point Grey
-    Quantity: 1
-UBC:
-    Type: Point Grey
+Name: Point Grey
+Cards:
+  4th & Blanca:
+    Routes:
+      - 4
+      - 44/84
+  4th & Alma:
+    Routes:
+      - 4
+      - 7
+      - 44/84
+  4th & Macdonald:
+    Routes:
+      - 4
+      - 7
+      - 22
+      - 44/84
+  UBC:
     Quantity: 3
-University Boulevard & Blanca:
-    Type: Point Grey
-    Quantity: 1
-Broadway & Alma:
-    Type: Point Grey
-    Quantity: 1
-Broadway & Macdonald:
-    Type: Point Grey
-    Quantity: 1
-16th & Blanca:
-    Type: Point Grey
-    Quantity: 1
-16th & Alma:
-    Type: Point Grey
-    Quantity: 1
-16th & Macdonald:
-    Type: Point Grey
-    Quantity: 1
-King Edward & Dunbar:
-    Type: Point Grey
-    Quantity: 1
-King Edward & Mackenzie:
-    Type: Point Grey
-    Quantity: 1
-Southwest Marine Drive:
-    Type: Point Grey
-    Quantity: 1
-33rd & Dunbar:
-    Type: Point Grey
-    Quantity: 1
-33rd & Mackenzie:
-    Type: Point Grey
-    Quantity: 1
-Dunbar Loop:
-    Type: Point Grey
-    Quantity: 1
-41st & Mackenzie:
-    Type: Point Grey
-    Quantity: 1
-49th & Mackenzie:
-    Type: Point Grey
-    Quantity: 1
+    Routes:
+      - 4
+      - 9
+      - 14
+      - 25
+      - 33
+      - 41
+      - 44/84
+      - 49
+  University Boulevard & Blanca:
+    Routes:
+      - 9
+      - 14
+  Broadway & Alma:
+    Routes:
+      - 7
+      - 9
+      - 14
+  Broadway & Macdonald:
+    Routes:
+      - 9
+      - 14
+      - 22
+  16th & Blanca:
+    Routes:
+      - 25
+      - 33
+  16th & Alma:
+    Routes:
+      - 7
+      - 25
+      - 33
+  16th & Macdonald:
+    Routes:
+      - 22
+      - 33
+  King Edward & Dunbar:
+    Routes:
+      - 7
+      - 25
+  King Edward & Mackenzie:
+    Routes:
+      - 22
+      - 25
+  Southwest Marine Drive:
+    Routes:
+      - 41
+      - 49
+  33rd & Dunbar:
+    Routes:
+      - 7
+  33rd & Mackenzie:
+    Routes:
+      - 22
+  Dunbar Loop:
+    Routes:
+      - 7
+      - 22
+      - 41
+      - 49
+  41st & Mackenzie:
+    Routes:
+      - 22
+      - 41
+  49th & Mackenzie:
+    Routes:
+      - 49

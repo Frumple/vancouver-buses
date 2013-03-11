@@ -14,7 +14,7 @@ html
             div class='card'
               h2 = card_name
               div class='type' = @data["Name"]
-              div class='routes' = (card_attribute["Routes"] ||= []).to_s.delete("[]")
+              div class='routes' = (card_attribute["Routes"] ||= []).to_s.delete("[]\"")
             - card_index += 1
             - if card_index % CARDS_PER_PAGE == 0
               div style='clear:both;'/
