@@ -7,8 +7,9 @@ require 'yaml'
 class DeckGenerator
   def initialize(options)
     @options = options
-    @data = YAML.load_file(@options[:data])
+    @stylesheet = @options[:stylesheet]
     @template = Slim::Template.new(@options[:template], :pretty => true)
+    @data = YAML.load_file(@options[:data])
   end
 
   def output
@@ -20,7 +21,11 @@ def parse_command_line_options
   options = {}
 
   optparse = OptionParser.new {|opts|
-    opts.banner = "Usage: deck_generator.rb --template TEMPLATE --data DATA"
+    opts.banner = "Usage: deck_generator.rb --stylesheet STYLESHEET --template TEMPLATE --data DATA "
+
+    opts.on("-s", "--stylesheet STYLESHEET", "CSS file") do |stylesheet|
+      options[:stylesheet] = stylesheet
+    end
 
     opts.on("-t", "--template TEMPLATE", "Slim template file") do |template|
       options[:template] = template
