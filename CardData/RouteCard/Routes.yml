@@ -1,66 +1,200 @@
 Cards:
-#  3 Main / Downtown: {}
-#  4 Powell / UBC: {}
-#  7 Nanaimo Station / Dunbar: {}
-#  8 Fraser / Downtown: {}
-#  9 Boundary / UBC: {}
-#  10 Granville / Downtown: {}
-#  14 Hastings / UBC: {}
-#  15/50 Waterfront Stn / Olympic Village Stn / Cambie: {}
-#  16 29th Avenue Station / Arbutus: {}
-#  17 Oak / Downtown: {}
-#  19 Metrotown Station / Stanley Park: {}
-#  20 Victoria / Downtown: {}
-  22 Knight / Macdonald:
-    Starting Location: "Marine & Knight"
+  3 Main / Downtown:
+    Starting Location: "Marine & Main"
     Stops:
-      - Name: Dunbar Loop
-        Colour: white
-      - Name: 41st & Mackenzie
-        Colour: white
-      - Name: 33rd & Mackenzie
-        Colour: white
-      - Name: King Edward & Mackenzie
-        Colour: white
-      - Name: 16th & Macdonald
-        Colour: white
-      - Name: Broadway & Macdonald
-        Colour: white
-      - Name: 4th & Macdonald
-        Colour: white
-      - Name: Vanier Park
-        Colour: grey
-      - Name: West End
-        Colour: grey
-      - Name: Burrard Station
-        Colour: grey
-      - Name: Waterfront Station
+      - Name: Marine Drive Station
+        Colour: blue-large
+      - Name: Marine & Main
+        Colour: yellow
+      - Name: 49th & Main
+        Colour: yellow
+      - Name: 41st & Main
+        Colour: yellow
+      - Name: 33rd & Main
+        Colour: yellow
+      - Name: King Edward & Main
+        Colour: green
+      - Name: 16th & Main
+        Colour: green
+      - Name: Broadway & Main
+        Colour: green
+      - Name: 2nd & Main
+        Colour: green
+      - Name: Main Street Station
         Colour: grey
       - Name: Hastings & Main
         Colour: grey
-      - Name: Main Street Station
+      - Name: Gastown
         Colour: grey
-      - Name: 1st & Clark
+      - Name: Waterfront Station
+        Colour: grey-large
+
+  4 Powell / UBC:
+    Starting Location: "Powell & Renfrew"
+    Stops:
+      - Name: Powell & Renfrew
         Colour: orange
-      - Name: VCC/Clark Station
-        Colour: green
-      - Name: Broadway & Clark
-        Colour: green
-      - Name: 16th & Knight
-        Colour: green
-      - Name: Kingsway & Knight
-        Colour: green
-      - Name: 33rd & Knight
-        Colour: yellow
-      - Name: 41st & Knight
+      - Name: Powell & Nanaimo
+        Colour: orange
+      - Name: Powell & Commercial
+        Colour: orange
+      - Name: Powell & Clark
+        Colour: orange
+      - Name: Gastown
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+      - Name: Granville & Davie
+        Colour: grey
+      - Name: Granville Island
+        Colour: red
+      - Name: 4th & Arbutus
+        Colour: red
+      - Name: 4th & Macdonald
+        Colour: white
+      - Name: 4th & Alma
+        Colour: white
+      - Name: 4th & Blanca
+        Colour: white
+      - Name: UBC
+        Colour: white-large
+
+  7 Nanaimo Station / Dunbar:
+    Starting Location: "Dunbar Loop"
+    Stops: []
+  8 Fraser / Downtown:
+    Starting Location: "Marine & Fraser"
+    Stops: []
+  9 Boundary / UBC:
+    Starting Location: "Boundary Loop"
+    Stops: []
+  10 Granville / Downtown:
+    Starting Location: "Marpole Loop"
+    Stops: []
+  14 Hastings / UBC:
+    Starting Location: "Kootenay Loop"
+    Stops: []
+  15/50 Waterfront Stn / Olympic Village Stn / Cambie:
+    Starting Location: "Marine Drive Station"
+    Stops: []
+  16 29th Avenue Station / Arbutus:
+    Starting Location: "49th & West Boulevard"
+    Stops:
+      - Name: 29th Avenue Station
+        Colour: purple
+      - Name: 22nd & Renfrew
+        Colour: purple
+      - Name: Renfrew Station
+        Colour: purple
+      - Name: 1st & Renfrew
+        Colour: orange
+      - Name: Hastings Park
+        Colour: orange
+      - Name: Hastings & Nanaimo
+        Colour: orange
+      - Name: Hastings & Commercial
+        Colour: orange
+      - Name: Hastings & Clark
+        Colour: orange
+      - Name: Hastings & Main
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+      - Name: Granville & Davie
+        Colour: grey
+      - Name: Granville Island
+        Colour: red
+      - Name: Broadway & Granville
+        Colour: red
+      - Name: Broadway & Arbutus
+        Colour: red
+      - Name: 16th & Arbutus
+        Colour: red
+      - Name: King Edward & Arbutus
+        Colour: red
+      - Name: 33rd & Arbutus
+        Colour: blue
+      - Name: 41st & West Boulevard
+        Colour: blue
+      - Name: 49th & West Boulevard
+        Colour: blue
+
+  17 Oak / Downtown:
+    Starting Location: "Marine & Oak"
+    Stops: []
+  19 Metrotown Station / Stanley Park:
+    Starting Location: "Metrotown Station"
+    Stops: []
+  20 Victoria / Downtown:
+    Starting Location: "Marine & Victoria"
+    Stops: []
+  22 Knight / Macdonald:
+    Starting Location: "Marine & Knight"
+    Stops:
+      - Name: Marine & Knight
         Colour: yellow
       - Name: 49th & Knight
         Colour: yellow
-      - Name: Marine & Knight
+      - Name: 41st & Knight
         Colour: yellow
-#  25 Brentwood Station / UBC: {}
-#  26-29 Kootenay Loop / Joyce Stn / 29th Avenue Stn / Elliott: {}
-#  33 29th Avenue Station / UBC: {}
-#  41 Joyce Station / UBC: {}
-#  44/84 Downtown / UBC / VCC-Clark Station: {}
-#  49 Metrotown Station / UBC: {}
+      - Name: 33rd & Knight
+        Colour: yellow
+      - Name: Kingsway & Knight
+        Colour: green
+      - Name: 16th & Knight
+        Colour: green
+      - Name: Broadway & Clark
+        Colour: green
+      - Name: VCC/Clark Station
+        Colour: green
+      - Name: 1st & Clark
+        Colour: orange
+      - Name: Main Street Station
+        Colour: grey
+      - Name: Hastings & Main
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Burrard Station
+        Colour: grey
+      - Name: West End
+        Colour: grey
+      - Name: Vanier Park
+        Colour: grey
+      - Name: 4th & Macdonald
+        Colour: white
+      - Name: Broadway & Macdonald
+        Colour: white
+      - Name: 16th & Macdonald
+        Colour: white
+      - Name: King Edward & Mackenzie
+        Colour: white
+      - Name: 33rd & Mackenzie
+        Colour: white
+      - Name: 41st & Mackenzie
+        Colour: white
+      - Name: Dunbar Loop
+        Colour: white
+
+  25 Brentwood Station / UBC:
+    Starting Location: "Brentwood Town Centre"
+    Stops: []
+  26-29 Kootenay Loop / Joyce Stn / 29th Avenue Stn / Elliott:
+    Starting Location: "Marine & Elliott"
+    Stops: []
+  33 29th Avenue Station / UBC:
+    Starting Location: "29th Avenue Station"
+    Stops: []
+  41 Joyce Station / UBC:
+    Starting Location: "Joyce Station"
+    Stops: []
+  44/84 Downtown / UBC / VCC-Clark Station:
+    Starting Location: "UBC"
+    Stops: []
+  49 Metrotown Station / UBC:
+    Starting Location: "49th and Mackenzie"
+    Stops: []

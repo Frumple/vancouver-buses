@@ -68,6 +68,38 @@ li.white {
    background-image: url('../Images/white-stop.png');
 }
 
+li.red-large {
+    background-image: url('../Images/red-stop-3.png');
+}
+
+li.orange-large {
+    background-image: url('../Images/orange-stop-3.png');
+}
+
+li.yellow-large {
+   background-image: url('../Images/yellow-stop-3.png');
+}
+
+li.green-large {
+   background-image: url('../Images/green-stop-3.png');
+}
+
+li.blue-large {
+   background-image: url('../Images/blue-stop-3.png');
+}
+
+li.purple-large {
+   background-image: url('../Images/purple-stop-3.png');
+}
+
+li.grey-large {
+   background-image: url('../Images/grey-stop-5.png');
+}
+
+li.white-large {
+   background-image: url('../Images/white-stop-3.png');
+}
+
 .start {
     font-family: 'Franklin Gothic';
     border-top-style: solid;
