@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "Franklin Gothic";
+	src: url("../Fonts/framd.ttf");
+}
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic';
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.card {
+	width: 11.50cm;
+	height: 17.50cm;
+	border-style: solid;
+	border-width: 0.25em;
+	padding: 0.25em;
+	float:left;
+}
+
+.newpage {
+	display:block; 
+	page-break-before:always;
+}
