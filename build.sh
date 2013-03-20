@@ -2,6 +2,7 @@ rm -rf Output
 mkdir Output
 cp -R Fonts Output
 cp -R Stylesheets Output
+cp -R Images Output
 
 ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/PassengerCard.css --template CardTemplates/PassengerCard.slim --data CardData/PassengerCard/MountPleasant.yml > output/MountPleasant.html
 ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/PassengerCard.css --template CardTemplates/PassengerCard.slim --data CardData/PassengerCard/Fairview.yml > output/Fairview.html

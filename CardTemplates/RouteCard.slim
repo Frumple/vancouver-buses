@@ -13,6 +13,11 @@ html
           - (card_attribute["Quantity"] ||= 1).times do
             div class='card'
               h1 = card_name
+              div class='start' = "Starting Location: #{card_attribute["Starting Location"]}"
+              ul
+                - for stop in card_attribute["Stops"]
+                  li class=stop["Colour"]
+                    div = stop["Name"]
             - card_index += 1
             - if card_index % CARDS_PER_PAGE == 0
               div style='clear:both;'/

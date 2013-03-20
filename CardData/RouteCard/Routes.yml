@@ -1,20 +1,66 @@
 Cards:
-  3 Main / Downtown: {}
-  4 Powell / UBC: {}
-  7 Nanaimo Station / Dunbar: {}
-  8 Fraser / Downtown: {}
-  9 Boundary / UBC: {}
-  10 Granville / Downtown: {}
-  14 Hastings / UBC: {}
-  15/50 Waterfront Stn / Olympic Village Stn / Cambie: {}
-  16 29th Avenue Station / Arbutus: {}
-  17 Oak / Downtown: {}
-  19 Metrotown Station / Stanley Park: {}
-  20 Victoria / Downtown: {}
-  22 Knight / Macdonald: {}
-  25 Brentwood Station / UBC: {}
-  26-29 Kootenay Loop / Joyce Stn / 29th Avenue Stn / Elliott: {}
-  33 29th Avenue Station / UBC: {}
-  41 Joyce Station / UBC: {}
-  44/84 Downtown / UBC / VCC-Clark Station: {}
-  49 Metrotown Station / UBC: {}
+#  3 Main / Downtown: {}
+#  4 Powell / UBC: {}
+#  7 Nanaimo Station / Dunbar: {}
+#  8 Fraser / Downtown: {}
+#  9 Boundary / UBC: {}
+#  10 Granville / Downtown: {}
+#  14 Hastings / UBC: {}
+#  15/50 Waterfront Stn / Olympic Village Stn / Cambie: {}
+#  16 29th Avenue Station / Arbutus: {}
+#  17 Oak / Downtown: {}
+#  19 Metrotown Station / Stanley Park: {}
+#  20 Victoria / Downtown: {}
+  22 Knight / Macdonald:
+    Starting Location: "Marine & Knight"
+    Stops:
+      - Name: Dunbar Loop
+        Colour: white
+      - Name: 41st & Mackenzie
+        Colour: white
+      - Name: 33rd & Mackenzie
+        Colour: white
+      - Name: King Edward & Mackenzie
+        Colour: white
+      - Name: 16th & Macdonald
+        Colour: white
+      - Name: Broadway & Macdonald
+        Colour: white
+      - Name: 4th & Macdonald
+        Colour: white
+      - Name: Vanier Park
+        Colour: grey
+      - Name: West End
+        Colour: grey
+      - Name: Burrard Station
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey
+      - Name: Hastings & Main
+        Colour: grey
+      - Name: Main Street Station
+        Colour: grey
+      - Name: 1st & Clark
+        Colour: orange
+      - Name: VCC/Clark Station
+        Colour: green
+      - Name: Broadway & Clark
+        Colour: green
+      - Name: 16th & Knight
+        Colour: green
+      - Name: Kingsway & Knight
+        Colour: green
+      - Name: 33rd & Knight
+        Colour: yellow
+      - Name: 41st & Knight
+        Colour: yellow
+      - Name: 49th & Knight
+        Colour: yellow
+      - Name: Marine & Knight
+        Colour: yellow
+#  25 Brentwood Station / UBC: {}
+#  26-29 Kootenay Loop / Joyce Stn / 29th Avenue Stn / Elliott: {}
+#  33 29th Avenue Station / UBC: {}
+#  41 Joyce Station / UBC: {}
+#  44/84 Downtown / UBC / VCC-Clark Station: {}
+#  49 Metrotown Station / UBC: {}

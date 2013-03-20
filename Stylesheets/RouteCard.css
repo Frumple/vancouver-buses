@@ -11,6 +11,69 @@ h1, h2, h3 {
     padding-bottom: 3px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+li {
+    font-family: 'Franklin Gothic';
+
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    min-height: 25px;
+    padding-left: 35px;
+    border-bottom : 1px black solid;
+}
+
+li div {
+    height: 25px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 125%;
+}
+
+li.red {
+    background-image: url('../Images/red-stop.png');
+}
+
+li.orange {
+    background-image: url('../Images/orange-stop.png');
+}
+
+li.yellow {
+   background-image: url('../Images/yellow-stop.png');
+}
+
+li.green {
+   background-image: url('../Images/green-stop.png');
+}
+
+li.blue {
+   background-image: url('../Images/blue-stop.png');
+}
+
+li.purple {
+   background-image: url('../Images/purple-stop.png');
+}
+
+li.grey {
+   background-image: url('../Images/grey-stop.png');
+}
+
+li.white {
+   background-image: url('../Images/white-stop.png');
+}
+
+.start {
+    font-family: 'Franklin Gothic';
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
 .card {
 	width: 11.50cm;
 	height: 17.50cm;
