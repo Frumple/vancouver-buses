@@ -641,7 +641,7 @@ Station<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="998.0" y="149.77208095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="40.5859375" x="19.70703125" y="20.8486328125">2nd &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="40.5859375" x="19.70703125" y="20.8486328125">2nd &amp;
 Main<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -659,7 +659,7 @@ Main<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="998.0" y="284.52208095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
 Main<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -677,7 +677,7 @@ Main<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="998.0" y="549.2720809523807"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#000000" visible="true" width="64.6962890625" x="7.65185546875" y="12.27294921875">King
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#FFFFFF" visible="true" width="64.6962890625" x="7.65185546875" y="12.27294921875">King
 Edward &amp;
 Main<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -750,7 +750,7 @@ Main<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1247.0" y="149.77208095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="70.1171875" x="4.94140625" y="20.8486328125">VCC/Clark
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="70.1171875" x="4.94140625" y="20.8486328125">VCC/Clark
 Station<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -768,7 +768,7 @@ Station<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1121.0" y="284.52208095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
 Fraser<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -786,7 +786,7 @@ Fraser<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1121.0" y="549.2720809523807"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#000000" visible="true" width="64.6962890625" x="7.65185546875" y="12.27294921875">King
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#FFFFFF" visible="true" width="64.6962890625" x="7.65185546875" y="12.27294921875">King
 Edward &amp;
 Fraser<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -859,7 +859,7 @@ Fraser<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1248.0" y="284.52208095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
 Clark<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -877,7 +877,7 @@ Clark<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1248.0" y="549.2720809523807"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
 Knight<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -949,7 +949,7 @@ Knight<y:LabelModel>
           <y:Geometry height="120.0" width="120.0" x="1347.0" y="264.52208095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#000000" visible="true" width="83.337890625" x="18.3310546875" y="32.27294921875">Commerical-
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#FFFFFF" visible="true" width="83.337890625" x="18.3310546875" y="32.27294921875">Commerical-
 Broadway
 Station<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -968,7 +968,7 @@ Station<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1367.0" y="549.2720809523807"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
 Victoria<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1040,7 +1040,7 @@ Victoria<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1490.0" y="284.52208095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="79.482421875" x="0.2587890625" y="20.8486328125">Broadway &amp;
 Nanaimo<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1058,7 +1058,7 @@ Nanaimo<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1490.0" y="416.89708095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="60.02734375" x="9.986328125" y="20.8486328125">Nanaimo
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="60.02734375" x="9.986328125" y="20.8486328125">Nanaimo
 Station<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1148,7 +1148,7 @@ Slocan<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1490.0" y="549.2720809523807"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
 Nanaimo<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1275,7 +1275,7 @@ Kerr<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1121.0" y="149.77208095238072"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#000000" visible="true" width="58.46875" x="10.765625" y="12.27294921875">Great
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="55.4541015625" modelName="custom" textColor="#FFFFFF" visible="true" width="58.46875" x="10.765625" y="12.27294921875">Great
 Northern
 Way<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -1980,7 +1980,7 @@ Victoria<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1121.0" y="416.89708095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="77.14453125" x="1.427734375" y="20.8486328125">Kingsway &amp;
 Fraser<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2288,7 +2288,7 @@ Oak<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="998.0" y="416.89708095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="44.4755859375" x="17.76220703125" y="20.8486328125">16th &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="44.4755859375" x="17.76220703125" y="20.8486328125">16th &amp;
 Main<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2306,7 +2306,7 @@ Main<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1248.0" y="416.89708095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="44.4755859375" x="17.76220703125" y="20.8486328125">16th &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="44.4755859375" x="17.76220703125" y="20.8486328125">16th &amp;
 Knight<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2324,7 +2324,7 @@ Knight<y:LabelModel>
           <y:Geometry height="80.0" width="80.0" x="1367.0" y="416.89708095238075"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#000000" visible="true" width="78.67578125" x="0.662109375" y="20.8486328125">16th &amp;
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.302734375" modelName="custom" textColor="#FFFFFF" visible="true" width="78.67578125" x="0.662109375" y="20.8486328125">16th &amp;
 Commercial<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -5785,17 +5785,6 @@ Station<y:LabelModel>
       </data>
     </edge>
     <edge id="e218" source="n72" target="n191">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e219" source="n9" target="n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
