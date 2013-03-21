@@ -579,10 +579,108 @@ Cards:
 
   41 Joyce Station / UBC:
     Starting Location: "Joyce Station"
-    Stops: []
+    Stops:
+      - Name: Joyce Station
+        Colour: purple
+      - Name: Kingsway & 41st
+        Colour: purple
+      - Name: 41st & Earles
+        Colour: purple
+      - Name: 41st & Clarendon
+        Colour: yellow
+      - Name: 41st & Victoria
+        Colour: yellow
+      - Name: 41st & Knight
+        Colour: yellow
+      - Name: 41st & Fraser
+        Colour: yellow
+      - Name: 41st & Main
+        Colour: yellow
+      - Name: Oakridge/41st Station
+        Colour: blue
+      - Name: 41st & Oak
+        Colour: blue
+      - Name: 41st & Granville
+        Colour: blue
+      - Name: 41st & West Boulevard
+        Colour: blue
+      - Name: 41st & Mackenzie
+        Colour: white
+      - Name: Dunbar Loop
+        Colour: white
+      - Name: Southwest Marine Drive
+        Colour: white
+      - Name: UBC
+        Colour: white-large
+
   44/84 Downtown / UBC / VCC-Clark Station:
     Starting Location: "UBC"
-    Stops: []
+    Stops:
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Burrard Station
+        Colour: grey
+      - Name: West End
+        Colour: grey
+      - Name: Vanier Park
+        Colour: grey
+      - Name: 4th & Macdonald
+        Colour: white
+      - Name: 4th & Alma
+        Colour: white
+      - Name: 4th & Blanca
+        Colour: white
+      - Name: UBC
+        Colour: white-large
+      - Name: 4th & Arbutus
+        Colour: red
+      - Name: Granville Island
+        Colour: red
+      - Name: False Creek
+        Colour: red
+      - Name: Olympic Village Station
+        Colour: red
+      - Name: 2nd & Main
+        Colour: green
+      - Name: Great Northern Way
+        Colour: green
+      - Name: VCC/Clark Station
+        Colour: green
+
   49 Metrotown Station / UBC:
     Starting Location: "49th and Mackenzie"
-    Stops: []
+    Stops:
+      - Name: Metrotown Station
+        Colour: purple-large
+      - Name: 49th & Boundary
+        Colour: purple
+      - Name: 49th & Tyne
+        Colour: purple
+      - Name: 49th & Kerr
+        Colour: purple
+      - Name: 49th & Elliott
+        Colour: yellow
+      - Name: 49th & Victoria
+        Colour: yellow
+      - Name: 49th & Knight
+        Colour: yellow
+      - Name: 49th & Fraser
+        Colour: yellow
+      - Name: 49th & Main
+        Colour: yellow
+      - Name: Langara/49th Station
+        Colour: blue
+      - Name: 49th & Oak
+        Colour: blue
+      - Name: 49th & Granville
+        Colour: blue
+      - Name: 49th & West Boulevard
+        Colour: blue
+      - Name: 49th & Mackenzie
+        Colour: white
+      - Name: Dunbar Loop
+        Colour: white
+      - Name: Southwest Marine Drive
+        Colour: white
+      - Name: UBC
+        Colour: white-large
