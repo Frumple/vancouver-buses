@@ -315,13 +315,100 @@ Cards:
 
   17 Oak / Downtown:
     Starting Location: "Marine & Oak"
-    Stops: []
+    Stops:
+      - Name: Marine Drive Station
+        Colour: blue-large
+      - Name: Marine & Oak
+        Colour: blue
+      - Name: 49th & Oak
+        Colour: blue
+      - Name: 41st & Oak
+        Colour: blue
+      - Name: 33rd & Oak
+        Colour: blue
+      - Name: King Edward & Oak
+        Colour: red
+      - Name: 16th & Oak
+        Colour: red
+      - Name: Broadway & Oak
+        Colour: red
+      - Name: Broadway-City Hall Station
+        Colour: red-large
+      - Name: Olympic Village Station
+        Colour: red
+      - Name: Yaletown-Roundhouse Station
+        Colour: grey
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+      - Name: Stadium-Chinatown Station
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+
   19 Metrotown Station / Stanley Park:
     Starting Location: "Metrotown Station"
-    Stops: []
+    Stops:
+      - Name: Metrotown Station
+        Colour: purple-large
+      - Name: Kingsway & Boundary
+        Colour: purple
+      - Name: Kingsway & 41st
+        Colour: purple
+      - Name: Kingsway & Slocan
+        Colour: purple
+      - Name: Kingsway & Nanaimo
+        Colour: green
+      - Name: Kingsway & Victoria
+        Colour: green
+      - Name: Kingsway & Knight
+        Colour: green
+      - Name: Kingsway & Fraser
+        Colour: green
+      - Name: Broadway & Main
+        Colour: green
+      - Name: 2nd & Main
+        Colour: green
+      - Name: Main Street Station
+        Colour: grey
+      - Name: Hastings & Main
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Burrard Station
+        Colour: grey
+      - Name: Stanley Park
+        Colour: grey
+
   20 Victoria / Downtown:
     Starting Location: "Marine & Victoria"
-    Stops: []
+    Stops:
+      - Name: Marine & Victoria
+        Colour: yellow
+      - Name: 49th & Victoria
+        Colour: yellow
+      - Name: 41st & Victoria
+        Colour: yellow
+      - Name: 33rd & Victoria
+        Colour: yellow
+      - Name: Kingsway & Victoria
+        Colour: green
+      - Name: 16th & Commercial
+        Colour: green
+      - Name: Commercial-Broadway Station
+        Colour: green-large
+      - Name: 1st & Commercial
+        Colour: orange
+      - Name: Hastings & Commercial
+        Colour: orange
+      - Name: Hastings & Clark
+        Colour: orange
+      - Name: Hastings & Main
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+
   22 Knight / Macdonald:
     Starting Location: "Marine & Knight"
     Stops:
@@ -372,13 +459,124 @@ Cards:
 
   25 Brentwood Station / UBC:
     Starting Location: "Brentwood Town Centre Station"
-    Stops: []
+    Stops:
+      - Name: Brentwood Town Centre Station
+        Colour: purple-large
+      - Name: 22nd & Boundary
+        Colour: purple
+      - Name: 22nd & Rupert
+        Colour: purple
+      - Name: 22nd & Renfrew
+        Colour: purple
+      - Name: Nanaimo Station
+        Colour: green
+      - Name: Kingsway & Nanaimo
+        Colour: green
+      - Name: Kingsway & Victoria
+        Colour: green
+      - Name: Kingsway & Knight
+        Colour: green
+      - Name: King Edward & Fraser
+        Colour: green
+      - Name: King Edward & Main
+        Colour: green
+      - Name: King Edward Station
+        Colour: red
+      - Name: King Edward & Oak
+        Colour: red
+      - Name: King Edward & Granville
+        Colour: red
+      - Name: King Edward & Arbutus
+        Colour: red
+      - Name: King Edward & Mackenzie
+        Colour: white
+      - Name: King Edward & Dunbar
+        Colour: white
+      - Name: 16th & Alma
+        Colour: white
+      - Name: 16th & Blanca
+        Colour: white
+      - Name: UBC
+        Colour: white-large
+
   26-29 Kootenay Loop / Joyce Stn / 29th Avenue Stn / Elliott:
     Starting Location: "Marine & Elliott"
-    Stops: []
+    Stops:
+      - Name: Kootenay Loop
+        Colour: orange-large
+      - Name: 1st & Rupert
+        Colour: orange
+      - Name: 1st & Boundary
+        Colour: orange
+      - Name: Rupert Station
+        Colour: purple
+      - Name: Renfrew Station
+        Colour: purple
+      - Name: 22nd & Rupert
+        Colour: purple
+      - Name: 22nd & Boundary
+        Colour: purple
+      - Name: Joyce-Collingwood Station
+        Colour: purple
+      - Name: Kingsway & 41st
+        Colour: purple
+      - Name: Kingsway & Boundary
+        Colour: purple
+      - Name: 49th & Boundary
+        Colour: purple
+      - Name: 49th & Tyne
+        Colour: purple
+      - Name: 49th & Kerr
+        Colour: purple
+      - Name: 41st & Earles
+        Colour: purple
+      - Name: Kingsway & Slocan
+        Colour: purple
+      - Name: 29th Avenue Station
+        Colour: purple
+      - Name: 41st & Clarendon
+        Colour: yellow
+      - Name: 49th & Elliott
+        Colour: yellow
+      - Name: Marine & Elliott
+        Colour: yellow
+
   33 29th Avenue Station / UBC:
     Starting Location: "29th Avenue Station"
-    Stops: []
+    Stops:
+      - Name: 29th Avenue Station
+        Colour: purple
+      - Name: Kingsway & Slocan
+        Colour: purple
+      - Name: 33rd & Victoria
+        Colour: yellow
+      - Name: 33rd & Knight
+        Colour: yellow
+      - Name: 33rd & Fraser
+        Colour: yellow
+      - Name: 33rd & Main
+        Colour: yellow
+      - Name: Queen Elizabeth Park
+        Colour: blue
+      - Name: King Edward Station
+        Colour: red
+      - Name: 16th & Cambie
+        Colour: red
+      - Name: 16th & Oak
+        Colour: red
+      - Name: 16th & Granville
+        Colour: red
+      - Name: 16th & Arbutus
+        Colour: red
+      - Name: 16th & Macdonald
+        Colour: white
+      - Name: 16th & Alma
+        Colour: white
+      - Name: 16th & Blanca
+        Colour: white
+      - Name: UBC
+        Colour: white-large
+
   41 Joyce Station / UBC:
     Starting Location: "Joyce Station"
     Stops: []
