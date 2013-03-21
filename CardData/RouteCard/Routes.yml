@@ -63,22 +63,212 @@ Cards:
 
   7 Nanaimo Station / Dunbar:
     Starting Location: "Dunbar Loop"
-    Stops: []
+    Stops:
+      - Name: Nanaimo Station
+        Colour: green
+      - Name: Broadway & Nanaimo
+        Colour: green
+      - Name: 1st & Nanaimo
+        Colour: orange
+      - Name: Hastings & Nanaimo
+        Colour: orange
+      - Name: Powell & Nanaimo
+        Colour: orange
+      - Name: Powell & Commercial
+        Colour: orange
+      - Name: Powell & Clark
+        Colour: orange
+      - Name: Gastown
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+      - Name: Granville & Davie
+        Colour: grey
+      - Name: Granville Island
+        Colour: red
+      - Name: 4th & Arbutus
+        Colour: red
+      - Name: 4th & Macdonald
+        Colour: white
+      - Name: 4th & Alma
+        Colour: white
+      - Name: Broadway & Alma
+        Colour: white
+      - Name: 16th & Alma
+        Colour: white
+      - Name: King Edward & Dunbar
+        Colour: white
+      - Name: 33rd & Dunbar
+        Colour: white
+      - Name: Dunbar Loop
+        Colour: white
+
   8 Fraser / Downtown:
     Starting Location: "Marine & Fraser"
-    Stops: []
+    Stops:
+      - Name: Marine & Fraser
+        Colour: yellow
+      - Name: 49th & Fraser
+        Colour: yellow
+      - Name: 41st & Fraser
+        Colour: yellow
+      - Name: 33rd & Fraser
+        Colour: yellow
+      - Name: King Edward & Fraser
+        Colour: green
+      - Name: Kingsway & Fraser
+        Colour: green
+      - Name: Broadway & Fraser
+        Colour: green
+      - Name: Broadway & Main
+        Colour: green
+      - Name: 2nd & Main
+        Colour: green
+      - Name: Main Street Station
+        Colour: grey
+      - Name: Hastings & Main
+        Colour: grey
+      - Name: Gastown
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+
   9 Boundary / UBC:
     Starting Location: "Boundary Loop"
-    Stops: []
+    Stops:
+      - Name: Boundary Loop
+        Colour: purple
+      - Name: Rupert Station
+        Colour: purple
+      - Name: Renfrew Station
+        Colour: purple
+      - Name: Broadway & Nanaimo
+        Colour: green
+      - Name: Commercial-Broadway Station
+        Colour: green-large
+      - Name: Broadway & Clark
+        Colour: green
+      - Name: Broadway & Fraser
+        Colour: green
+      - Name: Broadway & Main
+        Colour: green
+      - Name: Broadway-City Hall Station
+        Colour: red-large
+      - Name: Broadway & Oak
+        Colour: red
+      - Name: Broadway & Granville
+        Colour: red
+      - Name: Broadway & Arbutus
+        Colour: red
+      - Name: Broadway & Macdonald
+        Colour: white
+      - Name: Broadway & Alma
+        Colour: white
+      - Name: University Boulevard & Blanca
+        Colour: white
+      - Name: UBC
+        Colour: white-large
+
   10 Granville / Downtown:
     Starting Location: "Marpole Loop"
-    Stops: []
+    Stops:
+      - Name: Marine Drive Station
+        Colour: blue-large
+      - Name: Marine & Oak
+        Colour: blue
+      - Name: Marpole Loop
+        Colour: blue
+      - Name: 49th & Granville
+        Colour: blue
+      - Name: 41st & Granville
+        Colour: blue
+      - Name: 33rd & Granville
+        Colour: blue
+      - Name: King Edward & Granville
+        Colour: red
+      - Name: 16th & Granville
+        Colour: red
+      - Name: Broadway & Granville
+        Colour: red
+      - Name: Granville Island
+        Colour: red
+      - Name: Granville & Davie
+        Colour: grey
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+      - Name: Waterfront Station
+        Colour: grey-large
+
   14 Hastings / UBC:
     Starting Location: "Kootenay Loop"
-    Stops: []
+    Stops:
+      - Name: Kootenay Loop
+        Colour: orange-large
+      - Name: Hastings & Cassiar
+        Colour: orange
+      - Name: Hastings Park
+        Colour: orange
+      - Name: Hastings & Nanaimo
+        Colour: orange
+      - Name: Hastings & Commercial
+        Colour: orange
+      - Name: Hastings & Clark
+        Colour: orange
+      - Name: Hastings & Main
+        Colour: grey
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+      - Name: Granville & Davie
+        Colour: grey
+      - Name: Granville Island
+        Colour: red
+      - Name: Broadway & Granville
+        Colour: red
+      - Name: Broadway & Arbutus
+        Colour: red
+      - Name: Broadway & Macdonald
+        Colour: white
+      - Name: Broadway & Alma
+        Colour: white
+      - Name: University Boulevard & Blanca
+        Colour: white
+      - Name: UBC
+        Colour: white-large
+
   15/50 Waterfront Stn / Olympic Village Stn / Cambie:
     Starting Location: "Marine Drive Station"
-    Stops: []
+    Stops:
+      - Name: Waterfront Station
+        Colour: grey-large
+      - Name: Vancouver City Centre Station
+        Colour: grey-large
+      - Name: Granville & Davie
+        Colour: grey
+      - Name: Granville Island
+        Colour: red
+      - Name: False Creek
+        Colour: red
+      - Name: Olympic Village Station
+        Colour: red
+      - Name: Broadway-City Hall Station
+        Colour: red-large
+      - Name: 16th & Cambie
+        Colour: red
+      - Name: King Edward Station
+        Colour: red
+      - Name: Queen Elizabeth Park
+        Colour: blue
+      - Name: Oakridge/41st Station
+        Colour: blue
+      - Name: Langara/49th Station
+        Colour: blue
+      - Name: Marine Drive Station
+        Colour: blue-large
+
   16 29th Avenue Station / Arbutus:
     Starting Location: "49th & West Boulevard"
     Stops:
@@ -181,7 +371,7 @@ Cards:
         Colour: white
 
   25 Brentwood Station / UBC:
-    Starting Location: "Brentwood Town Centre"
+    Starting Location: "Brentwood Town Centre Station"
     Stops: []
   26-29 Kootenay Loop / Joyce Stn / 29th Avenue Stn / Elliott:
     Starting Location: "Marine & Elliott"
