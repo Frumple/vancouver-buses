@@ -13,4 +13,6 @@ ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/PassengerCard.css 
 ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/PassengerCard.css --template CardTemplates/PassengerCard.slim --data CardData/PassengerCard/DowntownVancouver.yml > output/DowntownVancouver.html
 ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/PassengerCard.css --template CardTemplates/PassengerCard.slim --data CardData/PassengerCard/PointGrey.yml > output/PointGrey.html
 
+ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/UpgradeCard.css --template CardTemplates/UpgradeCard.slim --data CardData/UpgradeCard/Upgrades.yml > output/Upgrades.html
+
 ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/RouteCard.css --template CardTemplates/RouteCard.slim --data CardData/RouteCard/Routes.yml > output/Routes.html

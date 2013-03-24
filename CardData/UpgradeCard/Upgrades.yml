@@ -1,0 +1,110 @@
+Type: Upgrade
+Cards:
+  # Pickup Upgrades
+  All-Doors Boarding:
+    Quantity: 1
+    Effect: "Once per turn, you may pickup any number of passengers on your current space without spending an action."
+  Large Catchment Area:
+    Quantity: 1
+    Effect: "Once per turn, you may pickup one passenger from an adjacent space for 1 action."
+
+  # Delivery Upgrades
+  Layover Stop:
+    Quantity: 1
+    Effect: "Once per turn, you may deliver any number of passengers on your current space without spending an action."
+  This Is Close Enough:
+    Quantity: 1
+    Effect: "Once per turn, you may deliver one passenger to an adjacent space for 1 action."
+  Bike Rack:
+    Quantity: 2
+    Effect: "Upon obtaining this card, name a region and place a passenger token for that region on top of this card. You may deliver any passengers bound for this region to any spaces within this region."
+
+  # General Movement Upgrades
+  Move To The Back:
+    Quantity: 1
+    Effect: "Once per turn, you may move back into the space that you most recently travelled from without spending an action."
+  Detour:
+    Quantity: 1
+    Effect: "During your turn, You may move any other player's bus 1 space for 2 actions."
+  Straightaway:
+    Quantity: 1
+    Effect: "Whenever you have spent 3 consecutive actions to move through spaces along a straight line, you may move one additional space without spending an action."
+
+  # Location-specific Movement Upgrades
+  Hastings HOV Lane Access:
+    Quantity: 1
+    Effect: "You may move up to 4 spaces along Hastings Street for 1 action."
+    Special: "Hastings Street includes all spaces from Hastings and Main east to Kootenay Loop."
+  Granville HOV Lane Access:
+    Quantity: 1
+    Effect: "You may move up to 2 spaces along Granville Street for 1 action."
+    Special: "Granville Street includes all spaces from Granville & Davie south to Marine & Granville."
+
+  # Teleportation Upgrades
+  Scenic Route:
+    Quantity: 1
+    Effect: "Once per turn, if you are currently at a park, you may spend 1 action to move to another park."
+    Special: "Parks are marked by the 'P' symbol on the board."
+  Retire at the Loop:
+    Quantity: 1
+    Effect: "Once per turn, if you are currently at a bus loop, you may spend 1 action to move to another bus loop."
+    Special: "Bus loops are marked by the 'L' symbol on the board."
+  Ride the Expo Line:
+    Quantity: 1
+    Effect: "Once per turn, if you are currently at an Expo Line station, you may spend 1 action to move to another Expo Line station."
+    Special: "Expo Line stations are marked by the 'E' symbol on the board."
+  Ride the Millennium Line:
+    Quantity: 1
+    Effect: "Once per turn, if you are currently at a Millennium Line station, you may spend 1 action to move to another Millennium Line station."
+    Special: "Millennium Line stations are marked by the 'M' symbol on the board."
+  Ride the Canada Line:
+    Quantity: 1
+    Effect: "Once per turn, if you are currently at a Canada Line station, you may spend 1 action to move to another Canada Line station."
+    Special: "Canada Line stations are marked by the 'C' symbol on the board."
+
+  # Action Upgrades
+  The Buzzer:
+    Quantity: 1
+    Effect: "When you have 5 or less actions at the beginning of your Action Phase, gain an additional action."
+
+  # Card-drawing Upgrades
+  Wheelchair Ramp:
+    Quantity: 1
+    Effect: "Whenever you roll a 1 on at least one of your dice, you may draw a passenger card from a deck of your choice."
+  Priority Seating:
+    Quantity: 1
+    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards of the deck, put 1 card into your hand, and put the rest face-up into the deck's discard pile."
+  Stragglers:
+    Quantity: 1
+    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards in the deck's discard pile, put 1 card into your hand, and put the rest back to the discard pile in the same order."
+
+  # Passenger Exchange Upgrades
+  Right On Time:
+    Quantity: 1
+    Effect: "You may initiate a passenger exchange for only 1 action."
+
+  # Hand Limit Upgrades
+  Articulated Bus:
+    Quantity: 2
+    Effect: "Your passenger card hand limit increases to 6 cards."
+
+  # Route Upgrades
+  Extended Service:
+    Quantity: 1
+    Effect: "Upon obtaining this upgrade, draw a 3rd route card from the top of the deck and keep it unrevealed. When you lose this upgrade, you must discard back down to 2 route cards."
+
+  # One-shot Upgrades
+  Stroller On Board:
+    Quantity: 2
+    Effect: "Discard this card immediately after obtaining it. You may then select a passenger deck and draw 2 cards from it, placing the cards into your hand."
+  Not In Service:
+    Quantity: 1
+    Effect: "Discard this card immediately after obtaining it. Discard all the cards in your hand, then draw that many passenger cards into your hand from any decks you choose."
+
+  # Pending Upgrades
+  #Exact Change Please:
+  #Onboard Cameras:
+  #Automated Next Stop Announcements:
+  #Transit Priority Signals:
+  #Hybrid Bus:
+  #Night Bus:
