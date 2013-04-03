@@ -3,17 +3,9 @@
 	src: url("../Fonts/framd.ttf");
 }
 
-h1, h2, h3 {
-    font-family: 'Franklin Gothic';
-    margin: 0;
-    padding: 0;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
 .card {
-	width: 5.5cm;
-	height: 7.75cm;
+	width: 6.25cm;
+	height: 9.75cm;
 	border-style: solid;
 	border-width: 0.25em;
 	padding: 0.25em;
@@ -25,6 +17,32 @@ h1, h2, h3 {
 	page-break-before:always;
 }
 
+.title {
+    display: inline-block;
+    font-family: 'Franklin Gothic';
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 5cm;
+    margin-bottom: 3px;
+}
+
+.cost {
+    display: inline-block;
+    font-family: 'Franklin Gothic';
+    font-size: 200%;
+    float: right;
+    border-style: solid;
+    width: 1cm;
+    height: 1cm;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .type {
 	font-family: 'Franklin Gothic';
 	border-top-style: solid;
@@ -33,6 +51,7 @@ h1, h2, h3 {
 
 .effect {
     font-family: 'Franklin Gothic';
+    margin-top: 0.5em;
 }
 
 .special {

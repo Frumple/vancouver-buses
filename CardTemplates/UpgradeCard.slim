@@ -12,7 +12,8 @@ html
         - @data["Cards"].each do |card_name, card_attribute|
           - (card_attribute["Quantity"] ||= 1).times do
             div class='card'
-              h2 = card_name
+              div class='title' = card_name
+              div class='cost' = card_attribute["Cost"]
               div class='type' = @data["Type"]
               div class='effect' = card_attribute["Effect"]
               br

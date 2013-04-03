@@ -12,7 +12,7 @@ html
         - @data["Cards"].each do |card_name, card_attribute|
           - (card_attribute["Quantity"] ||= 1).times do
             div class='card'
-              h2 = card_name
+              h1 = card_name
               div class='type' = @data["Name"]
               div class='routes' = (card_attribute["Routes"] ||= []).to_s.delete("[]\"")
             - card_index += 1

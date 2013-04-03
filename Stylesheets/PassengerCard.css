@@ -12,8 +12,8 @@ h1, h2, h3 {
 }
 
 .card {
-	width: 5.5cm;
-	height: 7.75cm;
+	width: 6.25cm;
+	height: 9.75cm;
 	border-style: solid;
 	border-width: 0.25em;
 	padding: 0.25em;
@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 .routes {
     font-family: 'Franklin Gothic';
-    font-size: 250%;
+    font-size: 290%;
     font-weight: 900;
     text-align: center;
 }
