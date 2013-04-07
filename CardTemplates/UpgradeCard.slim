@@ -14,10 +14,14 @@ html
             div class='card'
               div class='title' = card_name
               div class='cost' = card_attribute["Cost"]
-              div class='type' = @data["Type"]
+              div class='type' = card_attribute["Type"] + " Upgrade"
               div class='effect' = card_attribute["Effect"]
               br
               div class='special' = card_attribute["Special"]
+              br
+              - if card_attribute["Icon"]
+                div class='icon-container'
+                  img class='icon' src="#{card_attribute['Icon']}"
             - card_index += 1
             - if card_index % CARDS_PER_PAGE == 0
               div style='clear:both;'/

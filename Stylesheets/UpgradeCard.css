@@ -10,6 +10,7 @@
 	border-width: 0.25em;
 	padding: 0.25em;
 	float:left;
+	position: relative;
 }
 
 .newpage {
@@ -45,6 +46,7 @@
 
 .type {
 	font-family: 'Franklin Gothic';
+	font-weight: bold;
 	border-top-style: solid;
 	border-bottom-style: solid;
 }
@@ -57,4 +59,16 @@
 .special {
     font-family: 'Franklin Gothic';
     font-style: italic;
+}
+
+.icon-container {
+    position: absolute;
+    width: 100%;
+    bottom: 2px;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
 }

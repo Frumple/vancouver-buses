@@ -1,140 +1,274 @@
 Type: Upgrade
 Cards:
-  # Action Upgrades
-  Improved Engines:
+  # Action Upgrades (Permanent)
+  Improved Transmission:
+    Type: Permanent
     Quantity: 2
-    Cost: 5
-    Effect: At the beginning of your action phase, gain +1 action.
-  Ultimate Engines:
+    Cost: 4
+    Effect: "At the beginning of your action phase, gain +1 action."
+  Improved Engines:
+    Type: Permanent
     Quantity: 1
-    Cost: 8
-    Effect: At the beginning of your action phase, gain +2 actions.
+    Cost: 7
+    Effect: "At the beginning of your action phase, gain +2 actions."
   Night Bus:
+    Type: Permanent
     Quantity: 1
-    Cost: 6
-    Effect: At the beginning of your action phase, if you have less than 2 passengers on your bus, gain +2 actions.
+    Cost: 3
+    Effect: "At the beginning of your action phase, if you have 2 or less passengers on your bus, gain +1 action."
+  Express Bus:
+    Type: Permanent
+    Quantity: 1
+    Cost: 4
+    Effect: "At the end of your action phase, if you have only performed move actions this turn, you may immediately perform +2 additional actions this turn."
 
-  # Movement Upgrades
+  # Movement Upgrades (Permanent)
   Move To The Back:
+    Type: Permanent
     Quantity: 1
     Cost: 4
     Effect: "Once per turn, you may move back into the stop that you most recently travelled from without spending an action."
   Straightaway:
+    Type: Permanent
     Quantity: 1
     Cost: 5
     Effect: "Whenever you have spent 3 consecutive actions to move through stops along a straight line, you may move one additional stop without spending an action."
-  HOV Lane Access:
-    Quantity: 2
+  Granville HOV Lane Access:
+    Type: Permanent
+    Quantity: 1
     Cost: 4
-    Effect: "If you are currently on a stop with an HOV lane, you may move up to 2 stops that also have HOV lanes on them for 1 action."
+    Effect: "Whenever you would move 1 stop along Granville Street, you may move 2 stops along Granville Street instead."
+    Special: "Granville Street consists of all stops with HOV lanes from Granville & Davie to Marpole Loop."
+    Icon: "Images/hov-lane.png"
+  Hastings HOV Lane Access:
+    Type: Permanent
+    Quantity: 1
+    Cost: 3
+    Effect: "Whenever you would move 1 stop along Hastings Street, you may move 2 stops along Hastings Street instead."
+    Special: "Hastings Street consists of all stops with HOV lanes from Hastings & Main to Kootenay Loop."
+    Icon: "Images/hov-lane.png"
 
-  # Teleportation Upgrades
+  # Teleportation Upgrades (Permanent)
   Scenic Route:
+    Type: Permanent
     Quantity: 1
-    Cost: 6
+    Cost: 5
     Effect: "Once per turn, if you are currently at a park, you may spend 1 action to move to another park."
-    Special: "Parks are marked by the 'P' symbol on the board."
+    Special: "Parks are marked by the green tree symbol on the board."
+    Icon: "Images/park.png"
   Retire at the Loop:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Once per turn, if you are currently at a bus loop, you may spend 1 action to move to another bus loop."
+    Special: "Bus loops are marked by the red bus stop sign symbol on the board."
+    Icon: "Images/bus-loop.png"
+  Ride the Expo Line:
+    Type: Permanent
     Quantity: 1
     Cost: 6
-    Effect: "Once per turn, if you are currently at a bus loop, you may spend 1 action to move to another bus loop."
-    Special: "Bus loops are marked by the 'L' symbol on the board."
-  Ride the Expo Line:
-    Quantity: 1
-    Cost: 8
-    Effect: "Once per turn, if you are currently at an Expo Line station, you may spend 2 actions to move to another Expo Line station."
-    Special: "Expo Line stations are marked by the 'E' symbol on the board."
+    Effect: "Once per turn, if you are currently at an Expo Line station, you may spend 1 action to move to another Expo Line station."
+    Special: "Expo Line stations are marked by the dark blue train symbol on the board."
+    Icon: "Images/expo-line.png"
   Ride the Millennium Line:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Once per turn, if you are currently at a Millennium Line station, you may spend 1 action to move to another Millennium Line station."
+    Special: "Millennium Line stations are marked by the yellow train symbol on the board."
+    Icon: "Images/millenium-line.png"
+  Ride the Canada Line:
+    Type: Permanent
     Quantity: 1
     Cost: 7
-    Effect: "Once per turn, if you are currently at a Millennium Line station, you may spend 2 actions to move to another Millennium Line station."
-    Special: "Millennium Line stations are marked by the 'M' symbol on the board."
-  Ride the Canada Line:
-    Quantity: 1
-    Cost: 8
-    Effect: "Once per turn, if you are currently at a Canada Line station, you may spend 2 actions to move to another Canada Line station."
-    Special: "Canada Line stations are marked by the 'C' symbol on the board."
+    Effect: "Once per turn, if you are currently at a Canada Line station, you may spend 1 action to move to another Canada Line station."
+    Special: "Canada Line stations are marked by the light blue train symbol on the board."
+    Icon: "Images/canada-line.png"
 
-  # Pickup Upgrades
+  # Pickup Upgrades (Permanent)
   All-Doors Boarding:
+    Type: Permanent
     Quantity: 1
-    Cost: 6
+    Cost: 4
     Effect: "You may pickup passengers on your current stop without spending an action."
   Within Walking Distance:
+    Type: Permanent
     Quantity: 1
-    Cost: 6
+    Cost: 4
     Effect: "You may pickup passengers from an adjacent stop for 1 action each."
 
-  # Delivery Upgrades
+  # Delivery Upgrades (Permanent)
   Exit via the Rear Doors:
+    Type: Permanent
     Quantity: 1
-    Cost: 6
+    Cost: 4
     Effect: "You may deliver passengers on your current stop without spending an action."
   This Is Close Enough:
+    Type: Permanent
     Quantity: 1
-    Cost: 6
+    Cost: 4
     Effect: "You may deliver passengers to an adjacent stop for 1 action each."
   Bike Rack:
+    Type: Permanent
     Quantity: 2
-    Cost: 6
+    Cost: 4
     Effect: "Upon obtaining this card, name a region and place a passenger token for that region on top of this card. You may deliver passengers bound for a stop in that region to any stops within that region."
 
-  # Information Upgrades
-  The Buzzer:
-    Quantity: 1
-    Cost: 0
-    Effect: ""
-
-  # Card-drawing Upgrades
+  # Card-drawing Upgrades (Permanent)
   Wheelchair Ramp:
-    Quantity: 1
-    Cost: 7
-    Effect: "Whenever you roll a 1 on at least one of your dice, you may draw a passenger card from a deck of your choice."
-  Priority Seating:
+    Type: Permanent
     Quantity: 1
     Cost: 6
-    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards of the deck, put one of those cards into your hand, and put the rest back on top of the deck in any order."
-  Stragglers:
+    Effect: "Whenever you roll a 1 on at least one of your dice, you may draw a passenger card into your hand from a deck of your choice."
+  Priority Seating:
+    Type: Permanent
     Quantity: 1
-    Cost: 8
-    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards in the discard pile, put one of those cards into your hand, and put the rest back in the discard pile in the same order."
+    Cost: 5
+    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards of the deck, put one of those cards into your hand, and put the rest back on top of the deck in any order."
+  Chasing After The Bus:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 4 cards in the discard pile, put one of those cards into your hand, and put the rest back in the discard pile in the same order."
 
-  # Passenger Exchange Upgrades
+  # Upgrade-buying Upgrades (Permanent)
+  Transit Mechanic:
+    Type: Permanent
+    Quantity: 1
+    Cost: 3
+    Effect: "Buying upgrades costs you 1 less fare."
+
+
+  # Malicious Upgrades (Permanent)
+
+
+  # Passenger Exchange Upgrades (Permanent)
   Right On Time:
+    Type: Permanent
     Quantity: 1
     Cost: 6
     Effect: "You may initiate a passenger exchange for only 1 action."
 
-  # Hand Limit Upgrades
+  # Hand Limit Upgrades (Permanent)
   Articulated Bus:
-    Quantity: 2
-    Cost: 5
-    Effect: "Your passenger card hand limit increases to 6 cards."
+    Type: Permanent
+    Quantity: 1
+    Cost: 3
+    Effect: "Your passenger card hand limit increases by 2."
+  Community Shuttle:
+    Type: Permanent
+    Quantity: 1
+    Cost: 4
+    Effect: "Your passenger card hand limit decreases by 2. Immediately discard any passenger cards of your choice until your bus is no longer over-capacity. At the beginning of your action phase, you gain +2 actions."
 
-  # Route Upgrades
+  # Route Upgrades (Permanent)
   Extended Service:
+    Type: Permanent
     Quantity: 1
-    Cost: 0
-    Effect: "Upon obtaining this upgrade, draw a 3rd route card from the top of the deck and keep it unrevealed. When you lose this upgrade, you must discard back down to 2 route cards."
+    Cost: 7
+    Effect: "Upon obtaining this upgrade, draw a 3rd route card from the top of the deck and keep it unrevealed. At the end of the game, you will score points for this 3rd route in addition to your two other routes."
 
-  # One-shot Upgrades
-  Stroller On Board:
+  # Scoring Upgrades (Permanent)
+  General Hospital:
+    Type: Permanent
+    Quantity: 1
+    Cost: 7
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Fairview."
+  South Main District:
+    Type: Permanent
+    Quantity: 1
+    Cost: 7
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Mount Pleasant."
+  The Banks Of The Fraser:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Victoria-Fraserview."
+  Old Marpole:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Marpole."
+  Alma Mater:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Point Grey."
+  Where The Lights Are Bright:
+    Type: Permanent
+    Quantity: 1
+    Cost: 7
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Downtown Vancouver."
+  On The Rise:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Hastings-Sunrise."
+  The East Side:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "Score 1 additional victory point for every passenger you have delivered to Renfrew-Collingwood."
+
+  # Movement Upgrades (One-shot)
+  Floor It:
+    Type: One-shot
     Quantity: 2
-    Cost: 0
-    Effect: "Discard this card immediately after obtaining it. You may then select a passenger deck and draw 2 cards from it, placing the cards into your hand."
-  Not In Service:
-    Quantity: 1
-    Cost: 0
-    Effect: "Discard this card immediately after obtaining it. Discard all the cards in your hand, then draw that many passenger cards into your hand from any decks you choose."
+    Cost: 3
+    Effect: "You may immediately move up to 8 stops. After performing your moves, you may spend your remaining actions for this turn, if any."
 
-  Detour:
+  # Pickup Upgrades (One-shot)
+  Stroller On Board:
+    Type: One-shot
     Quantity: 1
-    Cost: 0
-    Effect: "During your turn, You may move any other player's bus 1 space for 2 actions."
+    Cost: 3
+    Effect: "You may only buy this upgrade if you are currently on a stop with a passenger on it. When you do, remove the passenger from the board, then draw 2 cards from that passenger's corresponding deck into your hand."
+  Giving Directions:
+    Type: One-shot
+    Quantity: 1
+    Cost: 3
+    Effect: "You may only buy this upgrade if you are currently on a stop with a passenger on it. When you do, remove the passenger from the board, then look through that passenger's corresponding deck. Put any one card from the deck into your hand, then shuffle the deck."
+  Return Trip:
+    Type: One-shot
+    Quantity: 1
+    Cost: 3
+    Effect: "You may only buy this upgrade if you are currently on a stop with a passenger on it. When you do, remove the passenger from the board, then look through that passenger's corresponding discard pile. Put any one card from the pile into your hand, then put the rest of the cards back in the discard pile in the same order."
+
+  # Delivery Upgrades (One-shot)
+  Next Stop:
+    Type: One-shot
+    Quantity: 2
+    Cost: 4
+    Effect: "You may immediately deliver a passenger card in your hand, even if you are currently not at its stop."
+
+  # Card-drawing Upgrades (One-shot)
+  Sorry, Not In Service:
+    Type: One-shot
+    Quantity: 1
+    Cost: 6
+    Effect: "Discard all the passenger cards in your hand, then draw that many passenger cards into your hand from any decks you choose."
+
+  # Passenger Exchange Upgrades (One-shot)
+  Exact Change Please:
+    Type: One-shot
+    Quantity: 1
+    Cost: 4
+    Effect: "You may only buy this upgrade if you are currently on a stop with another player on it. When you do, you may view that player's hand, then take one of their cards and put it into your hand."
+
+  # Route Upgrades (One-shot)
+  Rerouting:
+    Type: One-shot
+    Quantity: 1
+    Cost: 5
+    Effect: "You may discard any number of your route cards and draw replacements from the top of the route card deck."
 
   # Pending Upgrades
-  #Exact Change Please:
   #Onboard Cameras:
   #Automated Next Stop Announcements:
   #Transit Priority Signals:
   #Hybrid Bus:
+  #Broken Farebox:
+  #Unruly Passengers:
+  #Detour:
+  #Rush Hour:
+  #The Buzzer:

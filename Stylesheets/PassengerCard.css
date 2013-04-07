@@ -27,6 +27,7 @@ h1, h2, h3 {
 
 .type {
 	font-family: 'Franklin Gothic';
+	font-weight: bold;
 	border-top-style: solid;
 	border-bottom-style: solid;
 }
