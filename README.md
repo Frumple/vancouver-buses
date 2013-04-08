@@ -74,15 +74,69 @@ There are also two different types of stops, each of which determine how many pa
 
 ### Regions
 
-TODO
+The game board consists of 8 regions that make up the City of Vancouver. Your objective is to deliver passengers between these regions. The more passengers you deliver to any one region, the more victory points you will earn.
+
+Each region has a **colour**. Each region also has a deck of passenger cards and a set of passenger tokens that match this colour.
+
+Each region has a **number**. When numbers from 1 to 8 are rolled on the D8 dice, these numbers correspond to specific regions and are used to populate passengers on the board during the Passenger Placement phase.
+
+The numbers, names, and colours associated for each region are as follows:
+
+1. **Fairview (Red)**
+2. **Mount Pleasant (Green)**
+3. **Victoria-Fraserview (Yellow)**
+4. **Marpole (Blue)**
+5. **Point Grey (White)**
+6. **Downtown Vancouver (Black)**
+7. **Hastings-Sunrise (Orange)**
+8. **Renfrew-Collingwood (Purple)**
 
 ### Routes
 
-TODO
+Routes in this game are based on actual bus routes in the City of Vancouver. At the beginning of the game, you are assigned two of these routes and your objective is to deliver passengers to stops along these routes. The more passengers you deliver to any one route, the more victory points you will earn.
+
+Routes can be identified in three ways:
+
+- Each **route card** lists all of its stops and includes the colour and type (major or minor) of each stop.
+- **Route numbers** are shown on the game board, indicating the stops and regions that the routes travels through.
+- Each **passenger card** lists the routes that are serviced by it.
+
+Note that each player's route cards are kept hidden until the end of the game for scoring. This means that while it is usually very obvious as to which region a player is focusing on for delivering passengers, it is usually harder to determine which routes that a player is focusing on until later in the game.
 
 ## Scoring
 
-TODO
+At the end of the game, players reveal their hidden route cards and then score victory points based on three factors:
+
+- How many passengers a player delivered to each **region**
+- How many passengers a player delivered to each of their **routes**
+- Any of the player's **upgrade cards** that gives them additional victory points
+
+How many victory points you get for each region and for each route is as follows:
+
+- 0 passengers = **0 points**
+- 1 passenger = **1 point**
+- 2 passengers = **3 points**
+- 3 passengers = **6 points**
+- 4 passengers = **10 points**
+- 5 passengers = **15 points**
+- 6 passengers = **21 points**
+- 7 passengers = **28 points**
+- 8 passengers = **36 points**
+- 9 passengers = **45 points**
+- 10 passengers = **55 points**
+
+Et cetera...
+
+Also, for every set of 8 passengers where you deliver 1 passenger to each region, you are awarded an additional **10 victory points.**
+
+##### Example:
+
+Bob has the routes **16** and **41**.
+
+- Bob delivers his 1st passenger to the stop **"33rd & Dunbar"** in the Point Grey region. None of his routes go through this stop, so he now has **1 victory point**.
+- Bob delivers his 2nd passenger to **"33rd & Mackenzie"**, also in Point Grey. Again, none of his routes go through here, so he now has **3 victory points** since he has delivered two passengers to Point Grey.
+- Bob delivers his 3rd passenger to **"33rd & Arbutus"**, in the Marpole region. He will get 1 point for delivering his 1st passenger to Marpole, but also another 1 point for delivering his 1st passenger on the 16 route. He gains a total of 2 victory points, giving him a total of **5 victory points**.
+- Bob delivers his 4th passenger to **"41st & West Blvd"**, also in the Marpole region. Since it's his 2nd passenger in Marpole, he will gain 2 points for that. It is also his 2nd passenger on the 16 route, which gives him another 2 points. Finally, this is his 1st passenger on the 41 route, which gives him 1 more point. In total, Bob will gain 5 more victory points, giving him a grand total of **10 victory points**.
 
 ## The Player's Turn
 
@@ -125,10 +179,11 @@ The player then spends their actions as they see fit. A list of all possible act
 
 ## List of Player Actions
 
-### Move your bus (1 action)
+### Move your bus (Cost: 1 action)
 
-- You may spend 1 action to move your bus on stop.
-- You cannot move back into the space that you most recently travelled. To help indicate where your bus travelled from, place your bus on the side of the stop where they entered from.
+You may spend 1 action to move your bus on stop.
+
+You cannot move back into the space that you most recently travelled. To help indicate where your bus travelled from, place your bus on the side of the stop where they entered from.
 
 **TODO: Insert helpful diagram here.**
 
@@ -137,8 +192,7 @@ The player then spends their actions as they see fit. A list of all possible act
 If there is a passenger on your current stop AND you have not reached your hand limit, you may spend 1 action to pick up that passenger.
 
 - Remove the passenger token from the board and put it back into its container.
-- Draw a card from the top of the corresponding passenger deck **OR**
-- Draw a card from the top of the corresponding discard pile
+- Draw a card from the top of the corresponding passenger deck **OR** from the top of the corresponding discard pile.
 
 ### Deliver a passenger (Cost: 1 action)
 
@@ -158,7 +212,9 @@ In this scenario, the player initiating the exchange will be known as the **swap
 
 ### Buy an upgrade (Cost: X number of fares)
 
-Anytime during your Action Phase, you may choose to buy one of the three revealed upgrade cards as long as you have the fares to buy one. The fare cost of each upgrade is indicated in the top-right corner of the upgrade card. When you buy one of the revealed card, replace it with the card on top of the upgrade deck.
+Any time during your Action Phase, you may choose to buy one of the three revealed upgrade cards as long as you have the fares to buy one. The fare cost of each upgrade is indicated in the top-right corner of the upgrade card. When you buy one of the revealed card, replace it with the card on top of the upgrade deck.
+
+Note: You cannot buy an upgrade with the same name as one that you already possess.
 
 There are two kinds of upgrades, **permanent upgrades** and **one-shot upgrades**:
 
@@ -167,7 +223,7 @@ There are two kinds of upgrades, **permanent upgrades** and **one-shot upgrades*
 
 ### Sweep current upgrade cards (Cost: 1 fare)
 
-If you don't like any of the revealed upgrade cards, you can spend 1 fare to discard all three of them and replace them with three new cards from the top of the upgrade deck. You may do this anytime during your Action Phase.
+If you don't like any of the revealed upgrade cards, you can spend 1 fare to discard all three of them and replace them with three new cards from the top of the upgrade deck. You may do this any time during your Action Phase.
 
 ## Other Notes
 
