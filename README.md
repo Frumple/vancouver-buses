@@ -193,6 +193,7 @@ If there is a passenger on your current stop AND you have not reached your hand 
 
 - Remove the passenger token from the board and put it back into its container.
 - Draw a card from the top of the corresponding passenger deck **OR** from the top of the corresponding discard pile.
+- Also gain 1 fare.
 
 ### Deliver a passenger (Cost: 1 action)
 
