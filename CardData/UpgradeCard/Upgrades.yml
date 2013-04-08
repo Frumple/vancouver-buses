@@ -4,9 +4,14 @@ Cards:
   Improved Transmission:
     Type: Permanent
     Quantity: 2
-    Cost: 4
+    Cost: 5
     Effect: "At the beginning of your action phase, gain +1 action."
   Improved Engines:
+    Type: Permanent
+    Quantity: 2
+    Cost: 5
+    Effect: "At the beginning of your action phase, gain +1 action."
+  Hybrid Bus:
     Type: Permanent
     Quantity: 1
     Cost: 7
@@ -15,12 +20,18 @@ Cards:
     Type: Permanent
     Quantity: 1
     Cost: 3
-    Effect: "At the beginning of your action phase, if you have 2 or less passengers on your bus, gain +1 action."
+    Effect: "At the beginning of your action phase, if you have less than 2 passengers on your bus, gain +2 actions."
   Express Bus:
     Type: Permanent
     Quantity: 1
     Cost: 4
     Effect: "At the end of your action phase, if you have only performed move actions this turn, you may immediately perform +2 additional actions this turn."
+  Training Vehicle:
+    Type: Permanent
+    Quantity: 1
+    Cost: 3
+    Effect: "At the beginning of your action phase, your number of actions is modified by the number of passenger tokens on this card. Whenever you pick up a passenger, place the token on this card, up to 4 tokens maximum."
+    Special: "0 tokens = -2 actions.<br />1 token = -1 action.<br />2 tokens = No change.<br />3 tokens = +1 action.<br />4 tokens = +2 actions."
 
   # Movement Upgrades (Permanent)
   Move To The Back:
@@ -124,7 +135,7 @@ Cards:
     Type: Permanent
     Quantity: 1
     Cost: 5
-    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 3 cards of the deck, put one of those cards into your hand, and put the rest back on top of the deck in any order."
+    Effect: "Whenever you would draw a passenger card into your hand, you may instead look at the top 4 cards of the deck, put one of those cards into your hand, and put the rest back on top of the deck in any order."
   Chasing After The Bus:
     Type: Permanent
     Quantity: 1
@@ -137,17 +148,23 @@ Cards:
     Quantity: 1
     Cost: 3
     Effect: "Buying upgrades costs you 1 less fare."
-
-
-  # Malicious Upgrades (Permanent)
-
+  Transit Supervisor:
+    Type: Permanent
+    Quantity: 1
+    Cost: 3
+    Effect: "You may buy an upgrade as soon as it is revealed from the deck."
 
   # Passenger Exchange Upgrades (Permanent)
   Right On Time:
     Type: Permanent
     Quantity: 1
-    Cost: 6
+    Cost: 4
     Effect: "You may initiate a passenger exchange for only 1 action."
+  Transit Police:
+    Type: Permanent
+    Quantity: 1
+    Cost: 5
+    Effect: "You are immune from any passenger exchange attempts from other players."
 
   # Hand Limit Upgrades (Permanent)
   Articulated Bus:
@@ -168,26 +185,26 @@ Cards:
     Cost: 7
     Effect: "Upon obtaining this upgrade, draw a 3rd route card from the top of the deck and keep it unrevealed. At the end of the game, you will score points for this 3rd route in addition to your two other routes."
 
-  # Scoring Upgrades (Permanent)
+  # Regional Scoring Upgrades (Permanent)
   General Hospital:
     Type: Permanent
     Quantity: 1
-    Cost: 7
+    Cost: 6
     Effect: "Score 1 additional victory point for every passenger you have delivered to Fairview."
   South Main District:
     Type: Permanent
     Quantity: 1
-    Cost: 7
+    Cost: 6
     Effect: "Score 1 additional victory point for every passenger you have delivered to Mount Pleasant."
   The Banks Of The Fraser:
     Type: Permanent
     Quantity: 1
-    Cost: 5
+    Cost: 4
     Effect: "Score 1 additional victory point for every passenger you have delivered to Victoria-Fraserview."
   Old Marpole:
     Type: Permanent
     Quantity: 1
-    Cost: 5
+    Cost: 4
     Effect: "Score 1 additional victory point for every passenger you have delivered to Marpole."
   Alma Mater:
     Type: Permanent
@@ -197,7 +214,7 @@ Cards:
   Where The Lights Are Bright:
     Type: Permanent
     Quantity: 1
-    Cost: 7
+    Cost: 6
     Effect: "Score 1 additional victory point for every passenger you have delivered to Downtown Vancouver."
   On The Rise:
     Type: Permanent
@@ -207,32 +224,42 @@ Cards:
   The East Side:
     Type: Permanent
     Quantity: 1
-    Cost: 5
+    Cost: 4
     Effect: "Score 1 additional victory point for every passenger you have delivered to Renfrew-Collingwood."
+
+  # Route Scoring Upgrades
+  Frequent Service:
+    Type: Permanent
+    Quantity: 2
+    Cost: 3
+    Effect: "Score 1 additional victory point for every passenger you have delivered on one of your routes."
 
   # Movement Upgrades (One-shot)
   Floor It:
     Type: One-shot
     Quantity: 2
-    Cost: 3
+    Cost: 2
     Effect: "You may immediately move up to 8 stops. After performing your moves, you may spend your remaining actions for this turn, if any."
 
   # Pickup Upgrades (One-shot)
   Stroller On Board:
     Type: One-shot
-    Quantity: 1
-    Cost: 3
-    Effect: "You may only buy this upgrade if you are currently on a stop with a passenger on it. When you do, remove the passenger from the board, then draw 2 cards from that passenger's corresponding deck into your hand."
+    Quantity: 2
+    Cost: 2
+    Effect: "Pick up the passenger on your current stop, then draw 2 cards instead of 1 from the corresponding passenger deck into your hand."
+    Special: "You may only buy this upgrade if your currently on a stop with a passenger on it."
   Giving Directions:
     Type: One-shot
-    Quantity: 1
-    Cost: 3
-    Effect: "You may only buy this upgrade if you are currently on a stop with a passenger on it. When you do, remove the passenger from the board, then look through that passenger's corresponding deck. Put any one card from the deck into your hand, then shuffle the deck."
+    Quantity: 2
+    Cost: 2
+    Effect: "Pick up the passenger on your current stop, then take any one card from the corresponding passenger deck and put it into your hand. Shuffle the deck afterwards."
+    Special: "You may only buy this upgrade if your currently on a stop with a passenger on it."
   Return Trip:
     Type: One-shot
-    Quantity: 1
-    Cost: 3
-    Effect: "You may only buy this upgrade if you are currently on a stop with a passenger on it. When you do, remove the passenger from the board, then look through that passenger's corresponding discard pile. Put any one card from the pile into your hand, then put the rest of the cards back in the discard pile in the same order."
+    Quantity: 2
+    Cost: 2
+    Effect: "Pick up the passenger on your current stop, then take any one card from the corresponding discard pile and put it into your hand. Put the rest of the discard pile back in the same order."
+    Special: "You may only buy this upgrade if your currently on a stop with a passenger on it."
 
   # Delivery Upgrades (One-shot)
   Next Stop:
@@ -242,6 +269,11 @@ Cards:
     Effect: "You may immediately deliver a passenger card in your hand, even if you are currently not at its stop."
 
   # Card-drawing Upgrades (One-shot)
+  Straggler:
+    Type: One-shot
+    Quantity: 2
+    Cost: 2
+    Effect: "Draw one passenger card from any deck and put it into your hand."
   Sorry, Not In Service:
     Type: One-shot
     Quantity: 1
@@ -251,9 +283,26 @@ Cards:
   # Passenger Exchange Upgrades (One-shot)
   Exact Change Please:
     Type: One-shot
+    Quantity: 2
+    Cost: 3
+    Effect: "You may only buy this upgrade if you are currently on a stop with another player on it. When you do, you may view that player's hand, then take one of their cards and put it into your hand."
+
+  # Malicious Upgrades (One-shot)
+  Unruly Passenger:
+    Type: One-shot
+    Quantity: 2
+    Cost: 3
+    Effect: "Choose another player. Look at their hand and discard a passenger card of your choosing."
+  Detour:
+    Type: One-shot
+    Quantity: 2
+    Cost: 3
+    Effect: "Choose another player. You may move that player's bus up to 8 stops this turn."
+  Out Of Fuel:
+    Type: One-shot
     Quantity: 1
     Cost: 4
-    Effect: "You may only buy this upgrade if you are currently on a stop with another player on it. When you do, you may view that player's hand, then take one of their cards and put it into your hand."
+    Effect: "Choose another player. That player skips their next turn."
 
   # Route Upgrades (One-shot)
   Rerouting:
@@ -262,13 +311,15 @@ Cards:
     Cost: 5
     Effect: "You may discard any number of your route cards and draw replacements from the top of the route card deck."
 
-  # Pending Upgrades
+  # Upgrade Ideas
+
   #Onboard Cameras:
   #Automated Next Stop Announcements:
   #Transit Priority Signals:
-  #Hybrid Bus:
   #Broken Farebox:
-  #Unruly Passengers:
-  #Detour:
   #Rush Hour:
   #The Buzzer:
+  #Layover Stop:
+  #Transit Security:
+  #Checking Fares:
+

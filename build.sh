@@ -15,4 +15,6 @@ ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/PassengerCard.css 
 
 ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/UpgradeCard.css --template CardTemplates/UpgradeCard.slim --data CardData/UpgradeCard/Upgrades.yml > output/Upgrades.html
 
+ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/FareCard.css --template CardTemplates/FareCard.slim --data CardData/FareCard/Fares.yml > output/Fares.html
+
 ruby DeckGenerator/deck_generator.rb --stylesheet Stylesheets/RouteCard.css --template CardTemplates/RouteCard.slim --data CardData/RouteCard/Routes.yml > output/Routes.html

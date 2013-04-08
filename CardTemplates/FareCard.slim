@@ -1,0 +1,19 @@
+- TOTAL_CARDS = 48
+- CARDS_PER_PAGE = 16
+
+doctype html
+html
+  meta charset='utf8'
+  link rel='stylesheet' href="#{@options[:stylesheet]}" type='text/css'
+  meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'
+  body
+    div width='100%'
+      div
+        - card_index = 0
+        - (1..TOTAL_CARDS).each do |index|
+          div class='card'
+            div class='title' = "Fare"
+          - card_index += 1
+          - if card_index % CARDS_PER_PAGE == 0
+            div style='clear:both;'/
+            | </div><div class='newpage'>
